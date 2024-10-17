@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "type": "module",
+    "packageManager": "pnpm@9.12.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build:watch": "vite build --watch"
+    },
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^3.1.2",
+        "@tailwindcss/typography": "^0.5.15",
+        "@tsconfig/svelte": "^5.0.4",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.4",
+        "daisyui": "^4.12.13",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.47",
+        "svelte-preprocess": "^6.0.3",
+        "tailwindcss": "^3.4.13",
+        "typescript": "^5.6.3",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@codemirror/lang-yaml": "^6.1.1",
+        "@inertiajs/svelte": "^1.2.0",
+        "svelte-codemirror-editor": "^1.4.1"
+    },
+    "preinstall": "npx only-allow pnpm"
+}
